@@ -112,7 +112,7 @@ your-workspace/
 ### 1. Copy the Template
 
 ```bash
-git clone <this-repo> my-cowork-workspace
+git clone https://github.com/helgejo/cowork-template.git my-cowork-workspace
 cd my-cowork-workspace
 ```
 
