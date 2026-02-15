@@ -4,14 +4,15 @@ A production-ready workspace template for Claude Cowork — file organization, t
 
 ## Quick Start
 
-1. **Copy this template** to your own workspace or git repository
-2. **Read `CLAUDE.md`** — it's your bootstrap file
-3. **Load the `wrk-rules` skill** from `Skills/wrk-rules/SKILL.md`
-4. **Start a task** using the folder structure: `work/[your-category]/YYYY-MM-DD_[task-name]/`
-5. **Create a CONTEXT.md** in your task folder for conversation memory
-6. **Add company knowledge** to `company-context/`
+1. **Clone this repo** to your computer
+   ```bash
+   git clone https://github.com/helgejo/cowork-template.git
+   ```
+2. **Point Claude Cowork to the folder** — in the Claude desktop app, select `cowork-template` as your working folder
+3. **Tell Claude to initialize:**
+   > "Read CLAUDE.md and initialize my workspace. Ask me questions about my company, work categories, and preferences so you can set everything up for me."
 
-That's it. You're ready to work.
+Claude will read the template, ask you what you need, create your work categories, populate `company-context/` with your company info, and customize `CLAUDE.md` to fit your workflow. From then on, use this same folder for all your work — Claude remembers everything across sessions.
 
 ---
 
