@@ -1,6 +1,10 @@
-# Claude Cowork Template
+# Claude Cowork Template — AI Productivity Workspace
 
 A production-ready workspace template for Claude Cowork — file organization, task management, memory systems, and multi-session conversation continuity for productive AI-assisted work.
+
+Get the same kind of functionality as OpenClaw (formerly Clawdbot) — skills, memory, task management — but without the security risks of self-hosting. This runs entirely inside Anthropic's first-party Claude desktop app. No API keys to manage, no third-party infrastructure, no attack surface to worry about.
+
+> **Requires:** [Claude Max or Team subscription](https://claude.ai) (Cowork is a Claude desktop app feature)
 
 ## Quick Start
 
@@ -16,9 +20,9 @@ Claude will read the template, ask you what you need, create your work categorie
 
 ---
 
-## What Is This?
+## What Is Claude Cowork?
 
-Claude Cowork is a system for organizing long-term AI-assisted work across multiple conversations. Unlike a single-session chat, Cowork creates permanent structure for:
+Claude Cowork is an AI workspace system for organizing long-term AI-assisted work across multiple conversations in the Claude desktop app. Unlike a single-session chat, this workspace template creates permanent structure for:
 
 - **Multi-session continuity** — Save conversation context in `CONTEXT.md`, pick up where you left off
 - **File organization** — Work stays organized by category, date, and project
@@ -31,9 +35,9 @@ This template gives you a proven structure that scales from solo work to team co
 
 ---
 
-## Architecture
+## Workspace Architecture
 
-Claude Cowork uses a **layered memory system**:
+Claude Cowork uses a **layered memory system** to keep context across AI conversations:
 
 ```
 ┌─────────────────────────────────────────────┐
@@ -62,7 +66,7 @@ Claude Cowork uses a **layered memory system**:
 
 ---
 
-## Structure Overview
+## Folder Structure Overview
 
 ```
 your-workspace/
@@ -103,7 +107,7 @@ your-workspace/
 
 ---
 
-## How to Set Up
+## How to Set Up Your AI Workspace
 
 ### 1. Copy the Template
 
@@ -206,7 +210,7 @@ Drop files in `filedrop/`. On session start, Claude will:
 
 ---
 
-## Key Features
+## Key Features of Claude Cowork
 
 ![Claude Cowork Key Features](images/cowork-features-grid-v1.png)
 
@@ -331,7 +335,7 @@ This prevents duplication and keeps each layer focused.
 
 ---
 
-## How to Customize
+## How to Customize Your Workspace
 
 ### Add New Work Categories
 
@@ -388,7 +392,7 @@ Commit regularly. Avoid committing:
 
 ---
 
-## Skills & Connectors
+## Skills & MCP Connectors
 
 Claude Cowork works with specialized AI tools:
 
@@ -416,7 +420,7 @@ Check available connectors in your Claude setup and use them in your work.
 
 ---
 
-## Rules Summary
+## Workspace Rules Summary
 
 ### File Organization
 - Never delete — always archive
@@ -452,7 +456,7 @@ Check available connectors in your Claude setup and use them in your work.
 
 ---
 
-## Example Workflow
+## Example AI Workflow
 
 ![Claude Cowork Session Workflow](images/cowork-workflow-diagram-v1.png)
 
@@ -519,6 +523,14 @@ Yes, except:
 - Large binaries (use links or references instead)
 - Sensitive data (API keys, passwords, PII)
 - Generated/temporary files (put in `.gitignore`)
+
+---
+
+## Claude Cowork vs OpenClaw / Clawdbot
+
+Tools like OpenClaw (formerly Clawdbot) offer similar concepts — skills, memory, multi-session workflows. They're impressive open-source projects. But they require you to self-host, manage API keys, and maintain infrastructure. Unless you know exactly what you're doing, that's a real security risk: your company data flows through third-party code you're responsible for auditing and updating.
+
+This template gives you the same productivity architecture — but running entirely inside Claude's first-party desktop app. Anthropic handles security, model updates ship immediately, and your files never leave your machine. The trade-off is you need a Claude Max subscription and you lose some customization depth. For most founders and knowledge workers, that's the right trade.
 
 ---
 
